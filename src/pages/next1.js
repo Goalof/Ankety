@@ -16,9 +16,9 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" />
 			<Image width="150px" height="64px" src="https://uploads.quarkly.io/5f7f021a3d84d4001ec38356/images/4.png?v=2020-10-08T12:44:32.908Z" />
 		</Section>
-		<Section padding="0px 0 0px 0">
+		<Section padding="20px 0 20px 0" background="#FA8669">
 			<Override slot="SectionContent" width="100%" />
-			<Stack margin="0px 0px 0px 0px" gap="0px">
+			<Stack margin="0px 0px 0px 0px" gap="0px" border-radius="8px">
 				{"    "}
 				<StackItem width="50%" display="flex">
 					{"        "}
@@ -39,7 +39,7 @@ export default (() => {
 					<Text font="--headline1" margin="0px 0px 30px 0px" display="inline-block" color="--dark">
 						Артем
 					</Text>
-					<Box width="80%" padding="20px 20px 20px 20px" background="#fa8669">
+					<Box width="80%" padding="20px 20px 20px 20px" background="#fa8669" border-radius="8px">
 						<Text font="normal 300 22px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 5px 0px" display="inline-block">
 							<Strong
 								overflow-wrap="normal"
@@ -88,7 +88,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#fa8669" padding="0px 0 0px 0" quarkly-title="Knopa">
+		<Section background="#fa8669" padding="0px 0 0px 0" quarkly-title="Knopa" border-width="1px">
 			<Override slot="SectionContent" align-items="center" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px" width="100%">
 				{"    "}
@@ -102,6 +102,7 @@ export default (() => {
 						text-decoration-line="initial"
 						hover-text-decoration-line="underline"
 						href="/next1"
+						border-color="--color-dark"
 					>
 						Предыдущий
 					</Link>

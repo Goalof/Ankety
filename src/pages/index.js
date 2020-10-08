@@ -16,7 +16,7 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" />
 			<Image width="150px" height="64px" src="https://uploads.quarkly.io/landing/logo-on-dark.svg" />
 		</Section>
-		<Section padding="0px 0 0px 0">
+		<Section padding="20px 0 20px 0" background="#22262E">
 			<Override slot="SectionContent" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
@@ -39,7 +39,7 @@ export default (() => {
 					<Text font="--headline1" margin="0px 0px 30px 0px" display="inline-block" color="--light">
 						Куричев Иван
 					</Text>
-					<Box background="--color-light" width="80%" padding="20px 20px 20px 20px">
+					<Box background="--color-light" width="80%" padding="20px 20px 20px 20px" border-radius="8px">
 						<Text font="normal 300 22px/1.5 --fontFamily-googleSourceSansPro" margin="0px 0px 5px 0px" display="inline-block">
 							<Strong
 								overflow-wrap="normal"
@@ -111,7 +111,7 @@ export default (() => {
 						width="100%"
 					/>
 					<Link
-						href="#"
+						href="/next1"
 						padding="20px 0px 30px 0px"
 						width="100%"
 						color="#ffffff"

@@ -102,7 +102,7 @@ export default (() => {
 						text-align="center"
 						text-decoration-line="initial"
 						hover-text-decoration-line="underline"
-						href="/next1"
+						href="/"
 						border-color="--color-dark"
 					>
 						Предыдущий

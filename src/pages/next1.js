@@ -20,20 +20,21 @@ export default (() => {
 			<Override slot="SectionContent" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px" border-radius="8px">
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" md-width="100%">
 					{"        "}
 					<Image width="100%" src="https://uploads.quarkly.io/5f7f021a3d84d4001ec38356/images/1.jpg?v=2020-10-08T12:42:23.346Z" height="600px" object-fit="cover" />
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
 						justify-content="flex-start"
 						flex-direction="column"
-						padding="40px 0px 0px 0px"
+						padding="40px 0px 40px 0px"
 						background="--color-light"
+						md-padding="40px 0px 40px 0px"
 					/>
 					{"        "}
 					<Text font="--headline1" margin="0px 0px 30px 0px" display="inline-block" color="--dark">
@@ -92,7 +93,7 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px" width="100%">
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" md-width="100%">
 					<Link
 						width="100%"
 						padding="20px 0px 30px 0px"
@@ -109,7 +110,7 @@ export default (() => {
 					{"            "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"

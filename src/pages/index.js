@@ -20,13 +20,13 @@ export default (() => {
 			<Override slot="SectionContent" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" lg-width="100%">
 					{"        "}
 					<Image width="100%" height="600px" src="https://sun9-35.userapi.com/VzYuBGODIrw55sbgCW-LN1QU64ihcY2YU7B-Ug/svEnCdNSF6M.jpg" object-fit="cover" />
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" lg-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
@@ -34,9 +34,16 @@ export default (() => {
 						flex-direction="column"
 						background="--color-primary"
 						padding="40px 0px 0px 0px"
+						lg-padding="40px 0px 40px 0px"
 					/>
 					{"        "}
-					<Text font="--headline1" margin="0px 0px 30px 0px" display="inline-block" color="--light">
+					<Text
+						font="--headline1"
+						margin="0px 0px 30px 0px"
+						display="inline-block"
+						color="--light"
+						sm-text-align="center"
+					>
 						Куричев Иван
 					</Text>
 					<Box background="--color-light" width="80%" padding="20px 20px 20px 20px" border-radius="8px">
@@ -97,11 +104,11 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px" width="100%">
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" sm-width="100%" md-width="100%">
 					{"        "}{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="50%" display="flex" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
